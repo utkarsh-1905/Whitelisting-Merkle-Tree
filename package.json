@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
     "axios": "^0.26.1",
     "express": "^4.17.3",
     "keccak256": "^1.0.6",
@@ -8,7 +9,6 @@
   "name": "merkle-tree-whitelist",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
